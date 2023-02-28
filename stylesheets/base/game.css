@@ -2,7 +2,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Fredoka One', cursive;
+  font-family: "Mulish";
 }
 
 h1 {
@@ -15,41 +15,42 @@ p {
 }
 
 form {
-  flex:.2;
+  flex: 0.2;
   align-self: center;
 }
 
 input {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Mulish";
 }
 
-input[type=text] {
-    border: none;
-    border-bottom: 2px solid gray;
-    outline: none;
-    font-size: 40px;
-    text-align: center;
-    width: 30vw;
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+  font-size: 40px;
+  text-align: center;
+  width: 30vw;
 }
 
 i {
-  color: #2486B2
+  color: #2486b2;
 }
 
 i:hover {
   transform: scale(1.1);
 }
 
-input[type=submit], button {
-    background-color: #2486B2;
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 30px;
-    border-radius: 8px;
-    font-family: 'Fredoka One', cursive;
+input[type="submit"],
+button {
+  background-color: #2486b2;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 8px;
+  font-family: "Mulish";
 }
 
 button:focus {
@@ -63,7 +64,7 @@ button:hover {
 .all-body {
   display: flex;
   flex-direction: column;
-  flex:1;
+  flex: 1;
   width: 100%;
 }
 
@@ -98,9 +99,9 @@ button:hover {
   min-height: 90px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
-  flex: .18;
+  flex: 0.18;
   align-items: center;
 }
 
@@ -121,7 +122,7 @@ a {
 }
 
 .word-game {
-  flex: .55;
+  flex: 0.55;
   min-height: 365px;
   align-self: center;
 }
@@ -133,14 +134,14 @@ a {
   top: 20px;
   text-align: center;
   text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
-  color: #2486B2;
+  color: #2486b2;
 }
 
 #ledge {
   position: absolute;
   width: 10px;
   height: 328px;
-  background-color: #FF0015;
+  background-color: #ff0015;
   left: 30px;
 }
 
@@ -152,7 +153,7 @@ a {
   margin: auto;
   text-align: center;
   background-color: white;
-  color: #2486B2;
+  color: #2486b2;
 }
 
 #cover {

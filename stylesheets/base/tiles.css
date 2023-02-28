@@ -41,7 +41,7 @@ li {
 .tile {
   border-radius: 10px;
   border: 2px solid white;
-  background-color: #FF8EA3;
+  background-color: rgb(92, 203, 202);
   color: white;
   line-height: 70px;
 
